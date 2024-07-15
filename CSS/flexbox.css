@@ -1,0 +1,28 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flexContainer {
+    justify-content: end;
+    align-items: start;
+}
+.flexitem1 {
+    flex-grow: 1;
+}
+.flexitem2 {
+    flex-grow: 1;
+}
+.flexitem3 {
+    flex-grow: 1;
+}
+.flexitem1 {
+    flex-shrink: 2;
+}
+.flexitem2 {
+    flex-shrink: 1;
+}
+.flexitem3 {
+    flex-shrink: 2;
+}

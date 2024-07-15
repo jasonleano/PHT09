@@ -1,0 +1,60 @@
+/* Element Selector */
+span {
+    color:blue;
+}
+/* Class Selector */
+.class-name {
+    color:aqua;
+}
+/* Id Selectors */
+#id-name {
+    color: orange;
+}
+/* Universal selector */
+* {
+    color: pink; 
+    font-size: 25px;
+}
+/* Attribute selector */
+a[href] {
+    color: purple;
+}
+a[href="www.sample.com"] {
+    color: green;
+}
+
+/* Grouping selectors */
+h1, .parag, h2 {
+    color: brown;
+}
+/* Descendant selectors */
+.ancestor h3 {
+    color: tomato;
+}
+.ancestor p {
+    color: yellow; 
+}
+.ancestor p[class="second"] {
+    color: #39FF14;
+}
+/* Pseudo selectors */
+button:hover {
+    background-color: black;
+    color: white;
+}
+a[href="https://www.example.com"]:visited {
+    color: fuchsia;
+}
+/* Pseudo Elements */
+#pseudo-element::before {
+    content:"This is a paragraph before h3. ";
+    color: black;
+}
+#pseudo-element::after {
+    content: "This is a paragraph after h3. ";
+    color: rgb(152, 43, 112);
+}
+#pseudo-element::first-letter {
+    color:#39FF14; 
+    font-size: 40px;
+}

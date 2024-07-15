@@ -1,0 +1,43 @@
+.font-family-size {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    word-spacing: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 2px solid black;
+}
+
+.italic {
+    font-style: italic;
+    text-indent: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 7;
+}
+
+.letter-spacing {
+    letter-spacing: 4px;
+}
+
+.text-shadow {
+    text-shadow: 15px 15px 1px cadetblue; /*<horizontal> <vertical> <blur>*/
+    text-transform: uppercase;
+}

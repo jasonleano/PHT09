@@ -1,0 +1,23 @@
+.relative {
+    background-color: rgb(138, 250, 250);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.absolute {
+    background-color: palevioletred;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.fixed {
+    background-color: darkred;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.sticky {
+    background-color: royalblue;
+    position: sticky;
+    top: 0px;
+}
